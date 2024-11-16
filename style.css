@@ -1,0 +1,56 @@
+button {
+    background-color: #00026e;
+    color: rgb(255, 255, 255);
+    height: 46px;
+    width: 80px;  
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+h1 {
+    font-size: 50px;
+    color: #00026e;
+    text-align: center;
+}
+
+body {
+    max-width: 400px;
+    margin: 10px auto;
+    font-family: 'Lucida Sans';
+}
+
+input {
+    height: 40px;
+    width: 300px;
+    border: 2px solid black;
+    transition: 0.5s;
+
+}
+
+button:hover {
+    background-color: #000144;
+}
+
+button:active {
+    background-color: #0004d3;
+}
+
+ul {
+    padding: 0;
+   
+}
+li {
+    background-color: #00026e;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+span:hover {
+    cursor: pointer;
+}
+
